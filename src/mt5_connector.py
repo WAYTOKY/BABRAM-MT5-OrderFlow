@@ -115,10 +115,6 @@ class MT5Connector:
             'ask': info.ask,
             'point': info.point,
             'digits': info.digits,
-            'bid_high': info.bid_high,
-            'bid_low': info.bid_low,
-            'ask_high': info.ask_high,
-            'ask_low': info.ask_low,
         }
     
     def disconnect(self):
